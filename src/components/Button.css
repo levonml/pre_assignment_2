@@ -1,0 +1,75 @@
+button{
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    height: 50%;
+    width: 100%;
+    font-size: 100px;
+    cursor: pointer;
+}
+.incSynch {
+    background: #2b2922;  
+    border-bottom: 1px solid #fcfbf7;
+    border-right: 1px solid #fcfbf7;
+    color: #615f58;
+}
+
+.decSynch{
+    background: #2b2922;
+    border-top: 1px solid #fcfbf7;
+    border-right: 1px solid #fcfbf7;
+    color: #615f58;
+}
+
+.sideSynch{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    background : #99978f;
+    color: #131212;
+    position: absolute;
+    top : 25%;
+    left: 0;
+    width: 50px;
+    height: 320px;
+    text-align: center;
+    font-family: serif, sans-serif;
+    padding-right: 20px;
+    font-size: 30px;
+    font-weight: 800
+}
+
+.incAsynch {
+    background: #615f58;
+    border-bottom: 1px solid #fcfbf7;
+    border-left: 1px solid #fcfbf7;
+    color:#2b2922;
+}
+
+.decAsynch{
+    background: #615f58;
+    border-top: 1px solid #fcfbf7;
+    border-left: 1px solid #fcfbf7;
+    color:#2b2922;
+}
+
+.sideAsynch{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    background: #1f1e1c;
+    color: #f8f8f6;
+    position: absolute;
+    top : 25%;
+    right: 0px;
+    width: 50px;
+    height: 320px;
+    text-align: center;
+    font-family: serif;
+    padding-right: 20px;
+    font-size: 30px;
+    font-weight: 500
+}
+
+button:hover {
+    background:rgb(30, 41, 56);
+    color:beige 
+    }
